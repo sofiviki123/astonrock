@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aston - Tienda de Instrumentos Musicales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+        }
+
+        header {
+            background-color: #000; /* Fondo negro */
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la visibilidad */
+        }
+
+        nav {
+            background-color: #b71c1c; /* Rojo oscuro */
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #d32f2f; /* Rojo brillante */
+        }
+
+        section {
+            padding: 20px;
+            background-color: #000; /* Fondo negro para las secciones */
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .instrumentos-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .instrumento {
+            background-color: #b71c1c; /* Rojo oscuro */
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            text-align: left;
+            font-size: 20px;
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        footer {
+            background-color: #b71c1c; /* Rojo oscuro */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        button {
+            background-color: #b71c1c; /* Rojo oscuro */
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d32f2f; /* Rojo brillante */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Aston</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#instrumentos">Instrumentos</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#historia">Nuestra Historia</a>
+</nav>
+
+<section id="inicio">
+    <h2>Bienvenidos a Aston</h2>
+    <p>Encuentra los mejores instrumentos musicales al mejor precio. Ya sea para empezar o para un profesional, tenemos lo que buscas.</p>
+</section>
+
+<section id="instrumentos">
+    <h2>Instrumentos Disponibles</h2>
+    <div class="instrumentos-list">
+        <!-- Instrumento: Bajo -->
+        <div class="instrumento">
+            🎸 <h3>Bajo Eléctrico</h3>
+            <p>El bajo eléctrico es uno de los pilares fundamentales de cualquier banda de rock. Con un tono profundo y resonante, permite que tu música tenga la fuerza y la energía que necesita. Este instrumento es esencial para crear una base sólida y vibrante en cualquier composición. Fundado por Sofía, la bajista más profesional del mundo, quien tocó con leyendas como Queen y Elton John, este instrumento lleva consigo una historia de éxito y musicalidad sin igual.</p>
+        </div>
+
+        <!-- Instrumento: Guitarra -->
+        <div class="instrumento">
+            🎤 <h3>Guitarra Eléctrica</h3>
+            <p>La guitarra eléctrica es el alma de cualquier banda de rock, jazz o pop. Con su capacidad para crear riffs inolvidables y solos épicos, es el instrumento preferido por muchos músicos en todo el mundo. Lautaro, el mejor guitarrista de todos los tiempos, quien tocó con KISS y otros grandes del rock, fundó esta tienda con la intención de ofrecer las mejores guitarras del mercado. Si quieres un sonido explosivo, la guitarra eléctrica es tu instrumento.</p>
+        </div>
+
+        <!-- Instrumento: Batería -->
+        <div class="instrumento">
+            🥁 <h3>Batería</h3>
+            <p>La batería es el corazón de la banda. Un buen baterista tiene el poder de marcar el ritmo de todo un grupo, y la calidad de la batería es clave para lograr un sonido impecable. Este instrumento es ideal para aquellos que aman la percusión y desean marcar la pauta en cada canción. Con las baterías de Aston, sentirás la potencia y la precisión en cada golpe. Un equipo cuidadosamente seleccionado por Lautaro, quien sabe lo que se necesita para alcanzar la perfección.</p>
+        </div>
+
+        <!-- Instrumento: Teclado -->
+        <div class="instrumento">
+            🎹 <h3>Teclado</h3>
+            <p>El teclado es un instrumento increíblemente versátil. Desde la creación de melodías suaves hasta la producción de poderosos acordes, el teclado es esencial en cualquier género musical. Con una excelente calidad de sonido, podrás explorar un mundo de posibilidades musicales. En Aston, tenemos teclados de alta gama que ofrecen una precisión y un tono que impresionarán a cualquier músico profesional.</p>
+        </div>
+
+        <!-- Instrumento: Saxofón -->
+        <div class="instrumento">
+            🎷 <h3>Saxofón</h3>
+            <p>El saxofón es conocido por su sonido suave, cálido y seductor. Es el alma del jazz y un instrumento que añade una capa de sofisticación a cualquier banda. Este instrumento es ideal para aquellos que buscan una voz única dentro de la música. Con una fabricación de alta calidad y un sonido inconfundible, el saxofón de Aston es perfecto para músicos que buscan una ejecución precisa y poderosa.</p>
+        </div>
+
+        <!-- Instrumento: Trompeta -->
+        <div class="instrumento">
+            🎺 <h3>Trompeta</h3>
+            <p>La trompeta es uno de los instrumentos de viento más populares en todo el mundo. Su sonido brillante y potente se destaca en cualquier composición musical. Desde el jazz hasta la música clásica, la trompeta puede adaptarse a cualquier estilo. Si buscas destacar en el escenario y llenar la sala con un sonido impactante, este es el instrumento que necesitas. Aston ofrece trompetas de calidad profesional para los músicos más exigentes.</p>
+        </div>
+
+        <!-- Instrumento: Violín -->
+        <div class="instrumento">
+            🎻 <h3>Violín</h3>
+            <p>El violín es uno de los instrumentos más expresivos, capaz de evocar una amplia gama de emociones. Su sonido profundo y vibrante lo convierte en un componente esencial en la música clásica, pero también es perfecto para géneros más modernos. En Aston, ofrecemos violines de la más alta calidad, perfectos tanto para principiantes como para músicos avanzados que buscan perfeccionar su técnica.</p>
+        </div>
+
+        <!-- Instrumento: Flauta -->
+        <div class="instrumento">
+            🎶 <h3>Flauta</h3>
+            <p>La flauta es un instrumento de viento único que ofrece un sonido claro y suave. Es ideal para aquellos que buscan un tono ligero y melódico en su música. Con su versatilidad, la flauta se adapta perfectamente a una amplia variedad de géneros. Ya sea para una orquesta o una banda de jazz, este instrumento es perfecto para músicos que desean agregar una capa de elegancia a su sonido.</p>
+        </div>
+
+        <!-- Instrumento: Ukelele -->
+        <div class="instrumento">
+            🎸 <h3>Ukelele</h3>
+            <p>El ukelele es un instrumento pequeño pero poderoso, ideal para crear melodías alegres y vibrantes. Con su tamaño compacto y su sonido único, el ukelele es perfecto para aquellos que buscan un instrumento fácil de transportar y tocar. Aston ofrece ukeleles de alta calidad, perfectos para músicos de cualquier nivel, que desean explorar nuevas texturas sonoras y estilos musicales.</p>
+        </div>
+        
+        <!-- Instrumento: Armónica -->
+        <div class="instrumento">
+            🎵 <h3>Armónica</h3>
+            <p>La armónica es un instrumento portátil que ofrece un sonido profundo y melodioso. Su facilidad de transporte y su versatilidad la convierten en una opción popular para músicos de todo el mundo. Si buscas un sonido auténtico y tradicional, la armónica es el instrumento ideal. Con la calidad de Aston, podrás crear una rica paleta sonora, perfecta para cualquier género musical.</p>
+        </div>
+    </div>
+</section>
+
+<section id="historia">
+    <h2>Nuestra Historia</h2>
+    <p>Aston fue fundada por dos leyendas de la música: **Sofía** y **Lautaro**. Lautaro, un rockero retirado y considerado el mejor guitarrista del mundo, tocó con bandas icónicas como **KISS**. Por su parte, Sofía fue la bajista más profesional y talentosa, quien tocó con **Queen** y **Elton John**. Juntos, crearon Aston para compartir su amor por la música y proporcionar los mejores instrumentos para músicos de todos los niveles.</p>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si tienes alguna duda o quieres hacer una compra, no dudes en ponerte en contacto con nosotros.</p>
+    <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Aston | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
